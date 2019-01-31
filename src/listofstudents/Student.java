@@ -13,7 +13,10 @@ package listofstudents;
 public class Student {
   private String name;
   private int id;
- private string   
+  
+ private String  dob;  
+ 
+ private int maxHrs;
   
   public Student()
   {
@@ -45,4 +48,9 @@ public class Student {
       return id;
   }
   
+      public int getDob(){
+      this.dob = dob;
+      
+  }
+      
 }
